@@ -65,3 +65,20 @@
 #   factorialValue *= calcValue
 #   calcValue -= 1
 # print('Factorial value of {} is {}.'.format(randomNumber,factorialValue))
+
+#5
+# stringVar = 'python language is best programming language'
+# for index in range(len(stringVar)):
+#   elementVal = stringVar[index]
+#   endVal = '-'
+#   if elementVal == ' ':
+#     endVal = '\n'
+#   if index == (len(stringVar) - 1):
+#     endVal = ''
+#   elif stringVar[index + 1] == ' ':
+#     endVal = ''
+  
+#   if index % 2 == 0:
+#     print(elementVal.upper(),end=endVal)
+#   else :
+#     print(elementVal.lower(),end=endVal)
